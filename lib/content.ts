@@ -1,0 +1,7 @@
+export const disclaimer = 'Asaph Echoes is an independent cultural platform. We do not own the stories. Traditional custodians and contributors retain their rights. We are not an academic archive or government body.';
+export const whatsapp = `https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '254112272061'}?text=${encodeURIComponent('Hello Asaph Echoes, I would like to learn more about sharing a story.')}`;
+export const topics = [
+ {slug:'griot-jeli', title:'The living art of the jeli', region:'West Africa', label:'TRADITIONS', image:'/images/kora.jpg', alt:'A musician playing a string instrument outdoors', text:'Across Mandé communities, jeliw are known for practices that can include praise, music, history and mediation. Roles and names vary by community.'},
+ {slug:'imbongi', title:'Words that carry a community', region:'Southern Africa', label:'PRAISE POETRY', image:'/images/flute.jpg', alt:'A musician playing a flute at an outdoor cultural event', text:'An imbongi is a praise poet in several southern African contexts. Praise poetry can honour, question and speak to the present as well as the past.'},
+ {slug:'new-voices', title:'New voices, familiar threads', region:'Across Africa', label:'CONTEMPORARY', image:'/images/accra-singer.jpg', alt:'A woman singing into a microphone in an Accra studio', text:'New recordings and conversations can carry oral expression into different spaces, while keeping the people behind each story at the centre.'}
+];

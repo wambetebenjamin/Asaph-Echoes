@@ -1,0 +1,4 @@
+import StoryLibrary from '@/components/StoryLibrary';
+import { disclaimer } from '@/lib/content';
+export const metadata={title:'Stories'};
+export default function Stories(){return <><section className="page-hero"><div className="container"><p className="eyebrow light">THE LIBRARY</p><h1>Stories are a place to begin.</h1><p>Explore living traditions and the voices carrying them forward. Our collection is growing with care and consent.</p></div></section><section className="site-section bg-light"><div className="container"><div className="section-heading"><div><p className="eyebrow">EXPLORE THE COLLECTION</p><h2>A closer listen<span className="red">.</span></h2></div><p className="section-side">These editorial introductions are a starting point. Recordings and transcripts will be added when contributors have given permission. Photographs are illustrative.</p></div><StoryLibrary/><p className="small-note">{disclaimer}</p></div></section></>}
